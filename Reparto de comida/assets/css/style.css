@@ -1,0 +1,609 @@
+/* ===== FUENTES ===== */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+/* ===== ESTILOS GLOBALES ===== */
+body
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-weight: 400;
+  line-height: 25px;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #abaaaa;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+/* Botones */
+
+/* ===== FONDOS ===== */
+.bg-dark
+{
+  background-color: #202020;
+}
+
+.bg-purple
+{
+  background-color: #350d82;
+}
+
+.bg-1
+{
+  background-image: url(../img/bg-1.jpg);
+}
+
+.bg-2
+{
+  background-image: url(../img/bg-2.jpg);
+}
+
+.padding-bottom
+{
+  padding-bottom: 120px;
+}
+
+.padding-top
+{
+  padding-top: 120px;
+}
+
+.margin-bottom
+{
+  margin-bottom: 260px;
+}
+
+.fondo-relativo
+{
+  position: relative;
+}
+
+/* Textos */
+.title
+{
+  font-family: "Grand Hotel", cursive;
+  font-size: 56px;
+  color: white;
+}
+
+.subtitle
+{
+  font-family: "Grand Hotel", cursive;
+  font-size: 45px;
+  color: white;
+  line-height: 1;
+  text-align: center;
+}
+
+.sub-heading
+{
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#sub-heading
+{
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.big-sub-heading
+{
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.texto
+{
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.texto-grande
+{
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.testimonio
+{
+  max-width: 645px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  opacity: 0.6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: #202020;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(to right, #fc2547 0%, #ff5a00 100%);
+}
+
+/* ===== INICIO ===== */
+/* NAVBAR */
+header
+{
+  height: 100vh;
+}
+
+.nav-link
+{
+  font-family: "Poppins", sans-serif;
+  color: #ffffff !important;
+  font-size: 18px;
+}
+
+.nav-item
+{
+  padding-right: 1rem;
+}
+
+.little
+{
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+/* BANNER */
+.banner
+{
+  margin-top: 12rem;
+}
+
+.banner p
+{
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  line-height: 20px;
+  min-width: 313px;
+  max-width: 313px;
+  letter-spacing: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner .small-p
+{
+  font-size: 0.9rem;
+  font-weight: 300;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.busqueda
+{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 22rem;
+  padding: 0.6rem;
+}
+
+.form-group
+{
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid rgb(144, 144, 144);
+  margin-bottom: 2rem;
+}
+
+#location-input
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(133, 131, 131);
+}
+
+.icon
+{
+  position: absolute;
+  left: 2.5%;
+  top: 0%;
+  color: rgb(133, 131, 131);
+  font-size: 2rem;
+}
+
+.btn-propio
+{
+  display: block;
+  text-decoration: none;
+  background: linear-gradient(to right, #fc2547 0%, #ff5a00 100%);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-propio:hover
+{
+  background: linear-gradient(to right, #ff5a00 0%, #fc2547 100%);
+  color: white;
+}
+
+#btn-more
+{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.75rem 0;
+  margin-bottom: 3rem;
+}
+
+.slider-social
+{
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 11;
+  color: white;
+}
+
+.slider-social a
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.hojas
+{
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+
+.pizza
+{
+  width: 135px;
+  height: 125px;
+  position: absolute;
+  left: 70%;
+  top: 85%;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+
+.hamburguesa
+{
+  width: 135px;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+
+.plato
+{
+  display: none;
+}
+
+/* ===== RESTAURANTES COMIDA ===== */
+.espacio-busqueda
+{
+  padding-top: 15rem;
+}
+
+.service-card i
+{
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+}
+
+.number
+{
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.card
+{
+  border: none;
+  border-radius: 0px;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.estrellitas
+{
+  color: #ffc13c;
+  font-size: 0.8rem;
+}
+
+.card-text
+{
+  color: rgb(133, 131, 131);
+}
+
+/* ===== CARRUSEL COMENTARIOS ===== */
+.carrusel
+{
+  padding: 6rem 0;
+  background: linear-gradient(rgba(32, 32, 32, 0.9), rgba(32, 32, 32, 0.9)),
+    url("/assets/img/test-banner.jpg") center/cover fixed;
+}
+
+.circulo
+{
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+}
+
+.circulo-grande
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transform: translateY(-15%);
+  margin: 0 2rem;
+}
+
+/* ===== DESCARGAR APP MÓVIL ===== */
+.img-holder
+{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.img-holder img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.apps-details
+{
+  width: 65%;
+  margin: auto;
+}
+
+/* ===== INFO BÁSICA EMPRESA ===== */
+.features
+{
+  width: 90%;
+}
+
+.features-icons
+{
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.features-icons-color:hover
+{
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease;
+}
+
+/* ===== FOOTER ===== */
+.footer-style
+{
+  padding: 5rem 0;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-social a
+{
+  display: block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.footer-social ul
+{
+  padding: 0;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px)
+{
+  .slider-social {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px)
+{
+  .title
+  {
+    font-size: 4rem;
+  }
+
+  .subtitle
+  {
+    font-size: 4.5rem;
+    text-align: start;
+  }
+
+  .banner
+  {
+    margin-top: 7rem;
+  }
+
+  .hojas
+  {
+    position: absolute;
+    left: 75%;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+
+  .banner .small-p
+  {
+    font-size: 0.75rem;
+    max-width: 40%;
+  }
+
+  #btn-more
+  {
+    width: 40%;
+  }
+
+  .busqueda
+  {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background-color: rgba(83, 83, 83, 0.322);
+    border-radius: 50px;
+    padding: 0.6rem;
+    border-bottom: none;
+  }
+
+  .form-group
+  {
+    padding-bottom: 0rem;
+    border-bottom: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .icon
+  {
+    position: absolute;
+    left: 2.5%;
+    top: 25%;
+    color: rgb(133, 131, 131);
+    font-size: 2rem;
+  }
+
+  .espacio-busqueda
+  {
+    padding-top: 0rem;
+  }
+
+  .pizza
+  {
+    width: 450px;
+    height: 415px;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+
+  .hamburguesa
+  {
+    width: 195px;
+    height: 185px;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+
+  .plato
+  {
+    display: block;
+    width: 215px;
+    height: 205px;
+    position: absolute;
+    left: 3%;
+    top: 35%;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+
+  .padding-top-xs
+  {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .ajuste
+  {
+    max-width: 1100px;
+  }
+
+  .plato
+  {
+    display: block;
+    width: 215px;
+    height: 205px;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+}
